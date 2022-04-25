@@ -5,6 +5,8 @@
 4. В качестве результата присылайте проверяющему ссылки на ваши GitHub-проекты.
 
 ---
+[![Build status](https://ci.appveyor.com/api/projects/status/sq5yl4il4xpyos4a?svg=true)](https://ci.appveyor.com/project/SmolenskiyAV/ahj-22-5-forms)
+
 
 ### Popovers
 
@@ -27,7 +29,9 @@
 
 ---
 
-### Редактор списка
+### Редактор списка (задача  со звёздочкой)
+
+Важно: данная задача не является обязательной
 
 #### Легенда
 
