@@ -7,6 +7,7 @@
 ---
 [![Build status](https://ci.appveyor.com/api/projects/status/sq5yl4il4xpyos4a?svg=true)](https://ci.appveyor.com/project/SmolenskiyAV/ahj-22-5-forms)
 
+https://smolenskiyav.github.io/ahj-22_5.forms/
 
 ### Popovers
 
@@ -29,7 +30,7 @@
 
 ---
 
-### Редактор списка (задача  со звёздочкой)
+### Редактор списка* (задача  со звёздочкой)
 
 Важно: данная задача не является обязательной
 
@@ -62,7 +63,7 @@
 
 ---
 
-### Trip Calendar (задача  со звёздочкой)
+### Trip Calendar* (задача  со звёздочкой)
 
 Важно: данная задача не является обязательной
 
