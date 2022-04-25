@@ -1,0 +1,116 @@
+._content {
+  display: flex;
+  flex-flow: column wrap
+}
+
+.Tip {
+  min-width:180px;
+  max-width: 220px;
+ font-size: 16px;
+ background-color: rgba(37, 35, 35, 0.65);
+ border-color: black;
+ color: rgb(250, 248, 248);
+ padding: 13px;
+ border-radius: 6px;
+ position: absolute;
+ margin-bottom: 10px;
+ }
+
+.Tip::before {
+  content: '';
+   border: 9px solid transparent;
+   border-top: 9px solid rgba(37, 35, 35, 0.65);
+   position: absolute;
+   left: 50%; 
+   bottom: -18px; 
+   margin-left: 0px; 
+}
+
+.bd-example {
+  margin-top: .25rem;
+  margin-bottom: .25rem
+}
+
+.btn-danger.focus, .btn-danger:focus {
+  box-shadow: 0 0 0 .2rem rgba(225,83,97,.5)
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #c82333;
+  border-color: #bd2130
+}
+
+.btn.focus, .btn:focus {
+  outline: 0
+}
+
+.btn:hover {
+  text-decoration: none
+}
+/*
+[type="button"]:not(:disabled), 
+[type="reset"]:not(:disabled), 
+[type="submit"]:not(:disabled), 
+button:not(:disabled) {
+  cursor: pointer
+}
+*/
+.btn-group-lg > .btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  margin-left: 30%;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out
+}
+/*
+[type="button"], [type="reset"], [type="submit"], button {
+  -webkit-appearance: button;
+  appearance: button
+}
+
+button, select {
+  text-transform: none;
+
+}
+
+*, ::after, ::before {
+  box-sizing: border-box
+}
+
+button, ::file-selector-button {
+  white-space: unset;
+  text-indent: 0
+}
+*/
